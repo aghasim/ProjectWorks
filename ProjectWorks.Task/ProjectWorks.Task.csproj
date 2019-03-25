@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Data\ViewModels\" />
+    <Folder Include="Options\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProjectWorks.AmrApp\ProjectWorks.AmrApp.csproj" />
+    <ProjectReference Include="..\ProjectWorks.Data\ProjectWorks.Data.csproj" />
+  </ItemGroup>
+
+</Project>
